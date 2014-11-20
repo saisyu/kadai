@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta charset = “UTF-8” />
+<script type = "text/javascript" src="calcu.js"></script>
+<link href="calcu.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form name = "f">
+<table border="2" id="ta" align = left >
+<tr>
+<td id="an" colspan = "3" align = "right"><div id="q">0</div></td>
+<td><input id="but" type = "button" value = "c" onclick = "clean()"></td>
+<tr>
+<td><input id="but" type = "button" value = "7" onclick = "num(7)"></td>
+<td><input id="but" type = "button" value = "8" onclick = "num(8)"></td>
+<td><input id="but" type = "button" value = "9" onclick = "num(9)"></td>
+<td><input id="but" type = "button" value = "÷" onclick = "calc('w')"></td>
+</tr>
+<tr>
+<td><input id="but" type = "button" value = "4" onclick = "num(4)"></td>
+<td><input id="but" type = "button" value = "5" onclick = "num(5)"></td>
+<td><input id="but" type = "button" value = "6" onclick = "num(6)"></td>
+<td><input id="but" type = "button" value = "x" onclick = "calc('x')"></td>
+</tr>
+<tr>
+<td><input id="but" type = "button" value = "1" onclick = "num(1)"></td>
+<td><input id="but" type = "button" value = "2" onclick = "num(2)"></td>
+<td><input id="but" type = "button" value = "3" onclick = "num(3)"></td>
+<td><input id="but" type = "button" value = "-" onclick = "calc('m')"></td>
+</tr>
+<tr>
+<td><input id="but" type = "button" value = "0" onclick = "num(0)"></td>
+<td><input id="but" type = "button" value = "." onclick = “num(‘.’)”></td>
+<td><input id="but" type = "button" value = "=" onclick = "calc('=')"></td>
+<td><input id="but" type = "button" value = "+" onclick = "calc('t')"></td>
+</tr>
+</table>
+<table id = “ta1” border = 1 align = left>
+<td id = "td1">
+<p id = "log">log</p>
+<div id="lo"></div>
+</td>
+</table>
+</form>
+
+</body>
+</html>
