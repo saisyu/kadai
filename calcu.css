@@ -1,0 +1,39 @@
+
+div.box{
+        border: 1px solid;
+        margin: auto;
+        width :900px;
+}
+table#ta{
+  width: 500px;
+  height: 500px;
+}
+
+table#ta1{
+  width: 300px;
+  height: 536px;
+  margin-left: 10px;
+}
+
+input#but{
+width: 100px;
+height: 100px;
+font-size: 200%;
+margin-left: 10px;
+}
+
+td#an {
+font-size: 200%;
+color: #000000;
+}
+
+td#td1{
+font-size: 200%;
+top: 0;
+vertical-align: top;
+color:#000;
+}
+body{
+background: #DDD;
+}
+
